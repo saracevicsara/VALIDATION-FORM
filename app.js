@@ -16,7 +16,6 @@ inputs.forEach((element) => {
     } else {
       errors[inputName] = ["polje mora imati najmanje 5 karaktera"];
     }
-    //document.querySelector("div").innerHTML = `<ul><li>${errors[inputName][0]}</li></ul>`;
   });
 });
 const populateErrors = (errors) => {
